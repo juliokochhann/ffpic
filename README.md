@@ -2,7 +2,7 @@
 
 FFPIC is an open-source framework for 8-bit PIC microcontrollers.  
 It strives to be minimalist and comprehensive while still powerful and flexible.  
-This is an alpha release.  
+This project is in early stages of development.
 
 ## How to build
 
