@@ -1,0 +1,25 @@
+-std=c90
+-O2
+-fshort-double
+-fshort-float
+-mno-keep-startup
+-I libraries/TM1637
+-I src/common
+-I src/core
+-I src/lib
+libraries/TM1637/tm1637.c
+src/common/ftoa.c
+src/common/strrev.c
+src/common/strtof.c
+src/core/arch.c
+src/core/eeprom.c
+src/core/i2c.c
+src/core/interrupt.c
+src/core/io.c
+src/core/main.c
+src/core/timer.c
+src/core/uart.c
+src/lib/button.c
+src/lib/keypad.c
+src/lib/queue.c
+src/lib/stack.c
