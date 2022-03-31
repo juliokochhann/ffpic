@@ -34,6 +34,8 @@ void setup(void)
     
     /* Set I/O latches (PORTx or LATx): h1gh | l0w */
     PORTA = 0;
+
+    Button_Init(&btn0);
 }
 
 /* Infinite loop routine: runs repeatedly */
