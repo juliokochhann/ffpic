@@ -5,7 +5,6 @@
 *~
 
 # Ignore all files in these directories
-build/
 log/
 tmp/
 sim/
